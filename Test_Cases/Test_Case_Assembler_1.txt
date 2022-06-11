@@ -1,0 +1,10 @@
+add $t2 $t3 $t4
+addi $t2 $t2 18
+beq $t2 $t3 8
+sll $t2 $t4 2
+j -9
+lw $t5 30($t6)
+sw $t6 10($t7)
+slti $t4 $t6 76
+jal 24
+nor $t1 $t2 $t3 
