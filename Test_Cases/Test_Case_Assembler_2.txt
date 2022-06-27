@@ -1,0 +1,4 @@
+beq $t4 $t7 -7
+j 85
+slti $t1 $t5 14
+add $t1 $t6 $t5
