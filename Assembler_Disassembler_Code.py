@@ -6,10 +6,10 @@ def int2bs(s, n):
             Args: s = Integer string to convert.to 2s complement binary.
                   n = Length of outputted binary string.
 
-            Example Input: stpd("4", 4)
+            Example Input: int2bs("4", 4)
             Example Output: "0100"
 
-            Example Input: stpd("-3", 16)
+            Example Input: int2bs("-3", 16)
             Example Output: "1111111111111101" """
 
         x = int(s)                              # Convert string to integer, store in x.
